@@ -1,0 +1,14 @@
+﻿<Window x:Class="Client.DeleteWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Client"
+        mc:Ignorable="d"
+        Title="DeleteWindow" Height="210.504" Width="305.883">
+    <Grid>
+        <TextBox x:Name="letterId" HorizontalAlignment="Left" Height="31" Margin="77,40,0,0" TextWrapping="Wrap" Text="Write Letter Id" VerticalAlignment="Top" Width="94" />
+        <Button Content="Delete Message" HorizontalAlignment="Left" VerticalAlignment="Top" Width="94" Margin="77,94,0,0" Height="33" Click="Button_Click"/>
+
+    </Grid>
+</Window>

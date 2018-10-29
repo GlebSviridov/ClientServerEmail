@@ -1,0 +1,16 @@
+﻿<Window x:Class="Client.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Client"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="318.908" Width="366.386">
+    <Grid Margin="0,0,2,0">
+        <Button Content="Show all messages" HorizontalAlignment="Left" Height="41" Margin="10,108,0,0" VerticalAlignment="Top" Width="105" Click="Button_Click"/>
+        <TextBox HorizontalAlignment="Left" Height="18" TextWrapping="Wrap" Name="inputId" Text="Write your Id" VerticalAlignment="Top" Width="105" Margin="10,74,0,0"/>
+        <Button Content="Write New message" HorizontalAlignment="Left" Height="41" Margin="179,108,0,0" VerticalAlignment="Top" Width="121" Click="Button_Click_1"/>
+        <Button x:Name="DeleteButton" Content="Delete Message" HorizontalAlignment="Left" Height="41" Margin="10,181,0,0" VerticalAlignment="Top" Width="105" Click="Button_Click_2"/>
+
+    </Grid>
+</Window>
